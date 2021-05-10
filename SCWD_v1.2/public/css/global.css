@@ -1,0 +1,105 @@
+body {
+    background-color: #fff;
+}
+/*----Navbar----*/
+.active-nav {
+    border-bottom: 1px solid rgb(8, 170, 16);
+    color: rgb(8, 170, 16);
+}
+
+/*----News----*/
+.news-button {   
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(56, 55, 55);
+    transition: 0.5s;
+    transform: translateY(-70px);
+    opacity: 0;
+}
+.news-info:hover .news-button {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+.news-button:hover {
+    color: #000;
+    border-bottom: 1px solid rgb(77, 77, 77);
+    text-decoration: none;
+}
+/*Main News*/
+aside {
+    color: rgb(0, 0, 0);
+}
+
+
+/*----Resultats----*/
+.categoria_partits {
+    background-color: rgba(48, 48, 48, 0.637);
+    color: #fff;
+}
+.categoria-masculina {
+    border-bottom: 4px solid #40a6ef;
+}
+.categoria-femenina {
+    border-bottom: 4px solid #e54dea;
+}
+/*Toggle view*/
+.display-none {
+    display: none;
+}
+.display-block {
+    display: block;
+}
+
+/* Matches Tables */
+.matches_logos{
+    max-height: 35px;
+}
+
+/*Color Palette*/
+.bg-green {
+    background-color:rgb(8, 170, 16);
+}
+.brown {
+    background-color: saddlebrown;
+}
+.yellow {
+    background-color: yellow;
+}
+
+/*----Login----*/
+.login-title {
+    border-bottom: 2px solid rgb(8, 170, 16);
+}
+.forgotpassw-contianer {
+    border-top: 1px solid rgb(8, 170, 16);
+}
+
+/*----Colours----*/
+.color-1{
+    background-color: #32A14E;
+}
+.color-2{
+    background-color: #1E612F;
+}
+.color-3{
+    background-color: #45E06C;
+}
+.color-4{
+    background-color: #4AED72;
+}
+.color-5{
+    background-color: #3EC760;
+}
+.light-green-gradient-background{
+    background-image: linear-gradient( 135deg, #81FBB8 10%, #28C76F 100%);
+}
+.dark-green-gradient-background{
+    background-image: linear-gradient( 135deg, #237723 10%, #3ea821 100%);
+}
+.dark-gradient-background{
+    background-image: linear-gradient( 135deg, #252525 10%, #626361 100%);
+}
+.yellow-gradient-background{
+    background-image: linear-gradient( 135deg, #e2ec53 10%, #cec000  100%);
+}
